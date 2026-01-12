@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles_contact.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- ========== HEADER NAVIGATION ========== -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img class="ms-4" src="headerlogo.webp" alt="logo" height="50px">
+      </a>
+      
+      <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="mynavbar"> 
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link mx-auto me-4" href="page1.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-auto me-4" href="page2.html">Courses Offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-auto me-4" href="page3.html">Enroll Now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-auto me-4" href="page4.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-auto me-4" href="page5.html">About the Group</a>
+          </li>
+          <li class="nav-item">
+            <button class="my-portal-btn me-4">MY PORTAL</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <div class="blue-bar"></div>
+
+  <!-- ========== SCHOOL SCHEDULE TABLE ========== -->
+  <div class="contact-left mt-5">
+    <h2 class="text-center">School Schedule</h2>
+    
+    <div class="container text-nowrap">
+      <table class="table table-bordered text-center">
+        <thead>
+          <tr class="table-primary">
+            <th>Day</th>
+            <th>Office Hours</th>
+            <th>Department</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>8:00 AM - 4:00 PM</td>
+            <td>Registrar's Office</td>
+          </tr>
+          
+          <tr class="table-secondary">
+            <td>Tuesday</td>
+            <td>8:00 AM - 4:00 PM</td>
+            <td>Accounting Office</td>
+          </tr>
+          
+          <tr>
+            <td>Wednesday</td>
+            <td>8:00 AM - 4:00 PM</td>
+            <td>Guidance Office</td>
+          </tr>
+          
+          <tr class="table-secondary">
+            <td>Thursday</td>
+            <td>8:00 AM - 4:00 PM</td>
+            <td>Principal's Office</td>
+          </tr>
+          
+          <tr>
+            <td>Friday</td>
+            <td>8:00 AM - 3:00 PM</td>
+            <td>Admin Office</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ========== MAIN CONTACT SECTION ========== -->
+  <main class="contact-container">
+    <!-- Contact Information -->
+    <div class="contact-left">
+      <h2>Contact Us</h2>
+      <p>If you have questions, need more information, or want to schedule a visit, we are here to help.</p>
+      
+      <div class="contact-info">
+        <h3>Phone:</h3>
+        <p>+63 2 8722 9720 to 26</p>
+      </div>
+      
+      <div class="contact-info">
+        <h3>Email:</h3>
+        <p><a href="mailto:info@obmontessori.edu.ph">info@obmontessori.edu.ph</a></p>
+      </div>
+      
+      <div class="contact-info">
+        <h3>Address:</h3>
+        <p>3 Eisenhower St., Bgy. Greenhills, San Juan City, Metro Manila, Philippines</p>
+      </div>
+      
+      <p style="margin-top: 40px;">Kindly fill out the form and we will get back to you.</p>
+    </div>
+    
+    <!-- Contact Form -->
+    <div class="contact-right">
+      <form id="contactForm">
+        <!-- Name Field -->
+        <div class="form-group">
+          <label class="form-label">Name <span>(required)</span></label>
+          <div class="name-group">
+            <input type="text" class="form-input" placeholder="First Name" required>
+            <input type="text" class="form-input" placeholder="Last Name" required>
+          </div>
+        </div>
+        
+        <!-- Phone Field -->
+        <div class="form-group">
+          <label class="form-label">Phone <span>(required)</span></label>
+          <input type="tel" class="form-input" required>
+        </div>
+        
+        <!-- Email Field -->
+        <div class="form-group">
+          <label class="form-label">Email <span>(required)</span></label>
+          <input type="email" class="form-input" required>
+        </div>
+        
+        <!-- Campus Field -->
+        <div class="form-group">
+          <label class="form-label">Campus</label>
+          <select class="form-select">
+            <option value="">Select Campus</option>
+            <option value="angeles">Angeles City, Pampanga</option>
+            <option value="fairview">Fairview, Quezon City</option>
+            <option value="greenhills">Greenhills, San Juan City</option>
+            <option value="bfhomes">B.F. Homes, Las Piñas City</option>
+            <option value="staana">Sta. Ana, Manila City</option>
+          </select>
+        </div>
+        
+        <!-- Grade Field -->
+        <div class="form-group">
+          <label class="form-label">Grade</label>
+          <select class="form-select">
+            <option value="">Select Student Grade Level</option>
+            <option value="junior-casa">Junior Casa</option>
+            <option value="advanced-casa">Advanced Casa</option>
+            <option value="grade1">Grade 1</option>
+            <option value="grade2">Grade 2</option>
+            <option value="grade3">Grade 3</option>
+            <option value="grade4">Grade 4</option>
+            <option value="grade5">Grade 5</option>
+            <option value="grade6">Grade 6</option>
+            <option value="grade7">Grade 7</option>
+            <option value="grade8">Grade 8</option>
+            <option value="grade9">Grade 9</option>
+            <option value="grade10">Grade 10</option>
+            <option value="grade11">Grade 11</option>
+            <option value="grade12">Grade 12</option>
+          </select>
+        </div>
+        
+        <!-- Message Field -->
+        <div class="form-group">
+          <label class="form-label">Message <span>(required)</span></label>
+          <textarea class="form-textarea" required></textarea>
+        </div>
+        
+        <button type="submit" class="send-btn">SEND</button>
+      </form>
+    </div>
+  </main>
+  
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-container">
+      <!-- Footer Logo -->
+      <div class="footer-logo">
+        <img src="logo.webp" alt="O.B. Montessori Center">
+      </div>
+      
+      <!-- Location Links -->
+      <div class="footer-section">
+        <h3>Location</h3>
+        <a href="#">Angeles City, Pampanga</a>
+        <a href="#">Fairview, Quezon City</a>
+        <a href="#">Greenhills, San Juan City</a>
+        <a href="#">B.F. Homes, Las Piñas City</a>
+        <a href="#">Sta. Ana, Manila City</a>
+      </div>
+      
+      <!-- Contact & Social -->
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p style="margin-bottom: 10px;">+63 2 8722 9720 to 26</p>
+        <a href="mailto:info@obmontessori.edu.ph">info@obmontessori.edu.ph</a>
+        
+        <div class="social-icons">
+          <a href="#" class="social-icon" style="border: none; padding: 0;">
+            <img src="fb.jpg" alt="Facebook" style="width: 45px; height: 45px; object-fit: contain;">
+          </a>
+          <a href="#" class="social-icon" style="border: none; padding: 0;">
+            <img src="yt.webp" alt="YouTube" style="width: 45px; height: 45px; object-fit: contain;">
+          </a>
+          <a href="#" class="social-icon" style="border: none; padding: 0;">
+            <img src="instagram.svg" alt="Instagram" style="width: 45px; height: 45px; object-fit: contain;">
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div>
+        <img src="data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23fff' rx='5'/%3E%3Ctext x='20' y='25' text-anchor='middle' font-size='10' fill='%231e5a8e' font-weight='bold'%3ENPC%3C/text%3E%3C/svg%3E" alt="NPC Seal" style="height: 30px; vertical-align: middle; margin-right: 10px;">
+        <a href="#">NPC Seal of Registration.</a> | <a href="#">Privacy Policy</a>
+      </div>
+      <p>© 2025 O.B. Montessori Center. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- ========== JAVASCRIPT ========== -->
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! We will get back to you soon.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>

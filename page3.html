@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Enroll Now Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles_contact.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- School Navigation Bar -->
+  <header>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img class="ms-4" src="headerlogo.webp" alt="logo" height="50px" width="" ></a>
+  <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mynavbar"> 
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+ <li class="nav-item active">
+    <a class="nav-link mx-auto me-4" href="page1.html">Home</a>
+      <li class="nav-item">
+        <a class="nav-link mx-auto me-4" href="page2.html">Courses Offer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mx-auto me-4" href="page3.html">Enroll Now</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mx-auto me-4" href="page4.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mx-auto me-4" href="page5.html">About the Group</a>
+      </li>
+      <button class="my-portal-btn me-4">MY PORTAL</button></li>
+    </ul>
+  </div>
+</nav>
+</header>
+  
+   <div class="blue-bar"></div>
+
+   <div class="header-section">
+<div class="container">
+  <h1>Enroll Now</h1>
+  <p>Join the Operation Brotherhood Montessori Center family. Complete the enrollment form below to begin your educational journey.</p>
+</div>
+</div>
+
+
+<div class="container" style="margin-top: 40px;">
+<div class="row justify-content-center">
+  <div class="col-lg-10">
+    <div class="enrollment-form">
+      <h2 class="text-center mb-4" style="color: #0c4a85; font-weight: 700;">Student Enrollment Form</h2>
+      <p class="text-center mb-4">Please fill out all required fields marked with <span class="required">*</span></p>
+    
+      <form>
+
+
+        <h3 class="form-section-title">Student Information</h3>
+      
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <label for="firstName" class="form-label">First Name <span class="required">*</span></label>
+            <input type="text" class="form-control" id="firstName" required>
+          </div>
+          <div class="col-md-4">
+            <label for="middleName" class="form-label">Middle Name</label>
+            <input type="text" class="form-control" id="middleName">
+          </div>
+          <div class="col-md-4">
+            <label for="lastName" class="form-label">Last Name <span class="required">*</span></label>
+            <input type="text" class="form-control" id="lastName" required>
+          </div>
+        </div>
+
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="birthdate" class="form-label">Date of Birth <span class="required">*</span></label>
+            <input type="date" class="form-control" id="birthdate" required>
+          </div>
+          <div class="col-md-6">
+            <label for="gender" class="form-label">Gender <span class="required">*</span></label>
+            <select class="form-select" id="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="address" class="form-label">Complete Address <span class="required">*</span></label>
+          <textarea class="form-control" id="address" rows="2" required></textarea>
+        </div>
+
+
+        <h3 class="form-section-title">Academic Information</h3>
+      
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="gradeLevel" class="form-label">Grade Level Applying For <span class="required">*</span></label>
+            <select class="form-select" id="gradeLevel" required>
+              <option value="">Select Grade Level</option>
+              <option value="casa">Casa (Preschool)</option>
+              <option value="elementary1">Primary (Grade 1-3)</option>
+              <option value="elementary2">Intermediate (Grade 4-6)</option>
+              <option value="juniorhigh">Junior High School (Grade 7-10)</option>
+              <option value="seniorhigh">Senior High School (Grade 11-12)</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="schoolYear" class="form-label">School Year <span class="required">*</span></label>
+            <select class="form-select" id="schoolYear" required>
+              <option value="">Select School Year</option>
+              <option value="2025-2026">2026-2027</option>
+              <option value="2026-2027">2027-2028</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="previousSchool" class="form-label">Previous School Attended</label>
+          <input type="text" class="form-control" id="previousSchool">
+        </div>
+
+
+        <h3 class="form-section-title">Parent/Guardian Information</h3>
+      
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="guardianName" class="form-label">Guardian Full Name <span class="required">*</span></label>
+            <input type="text" class="form-control" id="guardianName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="relationship" class="form-label">Relationship <span class="required">*</span></label>
+            <select class="form-select" id="relationship" required>
+              <option value="">Select Relationship</option>
+              <option value="mother">Mother</option>
+              <option value="father">Father</option>
+              <option value="guardian">Legal Guardian</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="guardianEmail" class="form-label">Email Address <span class="required">*</span></label>
+            <input type="email" class="form-control" id="guardianEmail" required>
+          </div>
+          <div class="col-md-6">
+            <label for="guardianPhone" class="form-label">Contact Number <span class="required">*</span></label>
+            <input type="tel" class="form-control" id="guardianPhone" placeholder="+63" required>
+          </div>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="occupation" class="form-label">Occupation</label>
+          <input type="text" class="form-control" id="occupation">
+        </div>
+
+
+        <h3 class="form-section-title">Additional Information</h3>
+      
+        <div class="mb-3">
+          <label for="campus" class="form-label">Preferred Campus <span class="required">*</span></label>
+          <select class="form-select" id="campus" required>
+            <option value="">Select Campus</option>
+            <option value="Greenhills">Greenhills Campus</option>
+            <option value="Sta.Ana">Sta.Ana Campus</option>
+            <option value="Angeles">Angeles Campus</option>
+            <option value="Fairview">Fairview Campus</option>
+            <option value="Las Pinas">Las Pinas Campus</option>
+          </select>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="specialNeeds" class="form-label">Does the student have any special needs or medical conditions?</label>
+          <textarea class="form-control" id="specialNeeds" rows="2" placeholder="Please specify if any"></textarea>
+        </div>
+
+
+        <div class="mb-4">
+          <label for="comments" class="form-label">Additional Comments or Questions</label>
+          <textarea class="form-control" id="comments" rows="3"></textarea>
+        </div>
+
+
+        <div class="text-center mt-4">
+          <button type="submit" class="btn btn-submit">Submit Enrollment Form</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Footer -->
+   <footer>
+       <div class="footer-container">
+           <div class="footer-logo">
+               <img src="logo.webp" alt="O.B. Montessori Center">
+           </div>
+          
+           <div class="footer-section">
+               <h3>Location</h3>
+               <a href="#">Angeles City, Pampanga</a>
+               <a href="#">Fairview, Quezon City</a>
+               <a href="#">Greenhills, San Juan City</a>
+               <a href="#">B.F. Homes, Las Piñas City</a>
+               <a href="#">Sta. Ana, Manila City</a>
+           </div>
+          
+           <div class="footer-section">
+               <h3>Contact</h3>
+               <p style="margin-bottom: 10px;">+63 2 8722 9720 to 26</p>
+               <a href="mailto:info@obmontessori.edu.ph">info@obmontessori.edu.ph</a>
+              
+               <div class="social-icons">
+                   <a href="#" class="social-icon" style="border: none; padding: 0;">
+                       <img src="fb.jpg" alt="Facebook" style="width: 45px; height: 45px; object-fit: contain;">
+                   </a>
+                   <a href="#" class="social-icon" style="border: none; padding: 0;">
+                       <img src="yt.webp" alt="YouTube" style="width: 45px; height: 45px; object-fit: contain;">
+                   </a>
+                   <a href="#" class="social-icon" style="border: none; padding: 0;">
+                       <img src="instagram.svg" alt="Instagram" style="width: 45px; height: 45px; object-fit: contain;">
+                   </a>
+               </div>
+           </div>
+       </div>
+
+<div class="footer-bottom">
+           <div>
+               <img src="data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23fff' rx='5'/%3E%3Ctext x='20' y='25' text-anchor='middle' font-size='10' fill='%231e5a8e' font-weight='bold'%3ENPC%3C/text%3E%3C/svg%3E" alt="NPC Seal" style="height: 30px; vertical-align: middle; margin-right: 10px;">
+               <a href="#">NPC Seal of Registration.</a> | <a href="#">Privacy Policy</a>
+           </div>
+           <p>© 2025 O.B. Montessori Center. All Rights Reserved.</p>
+       </div>
+   </footer>
+  
+   <script>
+       document.getElementById('contactForm').addEventListener('submit', function(e) {
+           e.preventDefault();
+           alert('Thank you for your message! We will get back to you soon.');
+           this.reset();
+       });
+   </script>
+</body>
+</html>
